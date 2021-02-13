@@ -1,0 +1,98 @@
+/*******Header*******/
+.header {
+  padding: 14px 0;
+  &__top_wrap {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__top_item {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+  }
+  &__logo {
+    width: 51px;
+    height: auto;
+    margin-right: 20px;
+  }
+  &__logo_title {
+    font-family: "Roboto-Bold", sans-serif;
+    line-height: 40px;
+    font-size: 22px;
+  }
+  &__logo_subtitle {
+    font-family: "Roboto-Regular", sans-serif;
+    font-size: 13px;
+  }
+  &__address_icon {
+    width: 16px;
+    height: auto;
+    margin-right: 14px;
+  }
+  &__address_text {
+    font-family: "Roboto-Regular", sans-serif;
+    font-size: 18px;
+  }
+  &__email_icon {
+    width: 21px;
+    height: auto;
+    margin-right: 14px;
+  }
+  &__email_link {
+    font-family: "Roboto-Regular", sans-serif;
+    font-size: 18px;
+    transition: .35s;
+    color: #1f1f1f;
+    &:hover {
+      color: #2c514c;
+      transition: .35s;
+    }
+  }
+  &__callback_icon {
+    width: 24px;
+    height: auto;
+    margin-right: 16px;
+    display: flex;
+    align-items: center;
+  }
+  &__callback_link {
+    font-family: "Roboto-Bold", sans-serif;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #1f1f1f;
+    display: block;
+    margin-bottom: 5px;
+    &:hover {
+      color: #2c514c;
+      transition: .35s;
+    }
+  }
+  &__callback_btn {
+    font-family: "Roboto-Regular", sans-serif;
+    font-size: 13px;
+    color: #1f1f1f;
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+    position: relative;
+    &:after {
+      content: "";
+      display: block;
+      height: 1px;
+      width: 100%;
+      background: #1f1f1f;
+      position: absolute;
+      top: 100%;
+      left: 0;
+    }
+    &:hover {
+      color: #2c514c;
+      transition: .35s;
+    }
+    &:hover .header__callback_btn:after {
+      background: #2c514c;
+      transition: .35s;
+    }
+  }
+}
+/*******End Header*******/

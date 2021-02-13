@@ -1,0 +1,11 @@
+@import "../abstracts/mixins";
+
+@include font-face("Roboto-Thin", "../fonts/Roboto-Thin", 100);
+@include font-face("Roboto-Light", "../fonts/Roboto-Light", 300);
+@include font-face("Roboto-Regular", "../fonts/Roboto-Regular", 400);
+@include font-face("Roboto-Medium", "../fonts/Roboto-Medium", 500);
+@include font-face("Roboto-Bold", "../fonts/Roboto-Bold", 700);
+@include font-face("Roboto-Black", "../fonts/Roboto-Black", 900);
+
+
+@include font-face("icomoon", "../fonts/icomoon/icomoon");
